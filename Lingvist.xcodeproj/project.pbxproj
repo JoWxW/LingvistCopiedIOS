@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		AC10DBE5200D464900D09C03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC10DBE4200D464900D09C03 /* AppDelegate.swift */; };
-		AC10DBE7200D464900D09C03 /* FristViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC10DBE6200D464900D09C03 /* FristViewController.swift */; };
-		AC10DBE9200D464900D09C03 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC10DBE8200D464900D09C03 /* SecondViewController.swift */; };
+		AC10DBE7200D464900D09C03 /* ApprendreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC10DBE6200D464900D09C03 /* ApprendreViewController.swift */; };
+		AC10DBE9200D464900D09C03 /* CompteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC10DBE8200D464900D09C03 /* CompteViewController.swift */; };
 		AC10DBEC200D464900D09C03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC10DBEA200D464900D09C03 /* Main.storyboard */; };
 		AC10DBEE200D464900D09C03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC10DBED200D464900D09C03 /* Assets.xcassets */; };
 		AC10DBF1200D464900D09C03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC10DBEF200D464900D09C03 /* LaunchScreen.storyboard */; };
+		AC10DBFC200D5E6100D09C03 /* GrammaireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC10DBFB200D5E6100D09C03 /* GrammaireViewController.swift */; };
+		AC10DBFE200D6A6500D09C03 /* TextFiledPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC10DBFD200D6A6500D09C03 /* TextFiledPadding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AC10DBE1200D464900D09C03 /* Lingvist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lingvist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC10DBE4200D464900D09C03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC10DBE6200D464900D09C03 /* FristViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FristViewController.swift; sourceTree = "<group>"; };
-		AC10DBE8200D464900D09C03 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		AC10DBE6200D464900D09C03 /* ApprendreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApprendreViewController.swift; sourceTree = "<group>"; };
+		AC10DBE8200D464900D09C03 /* CompteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompteViewController.swift; sourceTree = "<group>"; };
 		AC10DBEB200D464900D09C03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC10DBED200D464900D09C03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC10DBF0200D464900D09C03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC10DBF2200D464900D09C03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC10DBFB200D5E6100D09C03 /* GrammaireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrammaireViewController.swift; sourceTree = "<group>"; };
+		AC10DBFD200D6A6500D09C03 /* TextFiledPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFiledPadding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				AC10DBE4200D464900D09C03 /* AppDelegate.swift */,
-				AC10DBE6200D464900D09C03 /* FristViewController.swift */,
-				AC10DBE8200D464900D09C03 /* SecondViewController.swift */,
+				AC10DBE6200D464900D09C03 /* ApprendreViewController.swift */,
+				AC10DBE8200D464900D09C03 /* CompteViewController.swift */,
 				AC10DBEA200D464900D09C03 /* Main.storyboard */,
 				AC10DBED200D464900D09C03 /* Assets.xcassets */,
 				AC10DBEF200D464900D09C03 /* LaunchScreen.storyboard */,
 				AC10DBF2200D464900D09C03 /* Info.plist */,
+				AC10DBFB200D5E6100D09C03 /* GrammaireViewController.swift */,
+				AC10DBFD200D6A6500D09C03 /* TextFiledPadding.swift */,
 			);
 			path = Lingvist;
 			sourceTree = "<group>";
@@ -139,9 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC10DBE9200D464900D09C03 /* SecondViewController.swift in Sources */,
+				AC10DBFC200D5E6100D09C03 /* GrammaireViewController.swift in Sources */,
+				AC10DBE9200D464900D09C03 /* CompteViewController.swift in Sources */,
+				AC10DBFE200D6A6500D09C03 /* TextFiledPadding.swift in Sources */,
 				AC10DBE5200D464900D09C03 /* AppDelegate.swift in Sources */,
-				AC10DBE7200D464900D09C03 /* FristViewController.swift in Sources */,
+				AC10DBE7200D464900D09C03 /* ApprendreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

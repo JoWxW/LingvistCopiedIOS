@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  FirstViewController.swift
 //  Lingvist
 //
 //  Created by Xiaowen WANG on 2018/1/15.
@@ -8,18 +8,17 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class ApprendreViewController: UIViewController {
 
+    @IBOutlet weak var wordInput: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 
 }
 
