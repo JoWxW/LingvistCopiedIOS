@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AC10DBE5200D464900D09C03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC10DBE4200D464900D09C03 /* AppDelegate.swift */; };
-		AC10DBE7200D464900D09C03 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC10DBE6200D464900D09C03 /* FirstViewController.swift */; };
+		AC10DBE7200D464900D09C03 /* FristViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC10DBE6200D464900D09C03 /* FristViewController.swift */; };
 		AC10DBE9200D464900D09C03 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC10DBE8200D464900D09C03 /* SecondViewController.swift */; };
 		AC10DBEC200D464900D09C03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC10DBEA200D464900D09C03 /* Main.storyboard */; };
 		AC10DBEE200D464900D09C03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC10DBED200D464900D09C03 /* Assets.xcassets */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		AC10DBE1200D464900D09C03 /* Lingvist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lingvist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC10DBE4200D464900D09C03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC10DBE6200D464900D09C03 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		AC10DBE6200D464900D09C03 /* FristViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FristViewController.swift; sourceTree = "<group>"; };
 		AC10DBE8200D464900D09C03 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		AC10DBEB200D464900D09C03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC10DBED200D464900D09C03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				AC10DBE4200D464900D09C03 /* AppDelegate.swift */,
-				AC10DBE6200D464900D09C03 /* FirstViewController.swift */,
+				AC10DBE6200D464900D09C03 /* FristViewController.swift */,
 				AC10DBE8200D464900D09C03 /* SecondViewController.swift */,
 				AC10DBEA200D464900D09C03 /* Main.storyboard */,
 				AC10DBED200D464900D09C03 /* Assets.xcassets */,
@@ -141,7 +141,7 @@
 			files = (
 				AC10DBE9200D464900D09C03 /* SecondViewController.swift in Sources */,
 				AC10DBE5200D464900D09C03 /* AppDelegate.swift in Sources */,
-				AC10DBE7200D464900D09C03 /* FirstViewController.swift in Sources */,
+				AC10DBE7200D464900D09C03 /* FristViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
