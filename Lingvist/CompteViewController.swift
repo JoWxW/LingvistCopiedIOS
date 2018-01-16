@@ -10,6 +10,12 @@ import UIKit
 
 class CompteViewController: UIViewController {
 
+    @IBOutlet weak var profile: UILabel!
+    @IBOutlet weak var profileImg: UIImageView!
+    @IBOutlet weak var profileEmail: UILabel!
+    @IBOutlet weak var recentWords: UILabel!
+    @IBOutlet weak var recentWordsLabel: UILabel!
+    
     @IBAction func buttonSignIn() {
         print("Buton Sign In")
         let alert = UIAlertController(title:"Sign In", message:nil, preferredStyle: .alert)
@@ -44,6 +50,7 @@ class CompteViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        hideProfile(hide: true)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -52,6 +59,12 @@ class CompteViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    func hideProfile(hide: Bool){
+        profile.isHidden = hide
+        profileImg.isHidden = hide
+        profileEmail.isHidden = hide
+        recentWords.isHidden = hide
+        recentWordsLabel.isHidden = hide
+    }
 }
 

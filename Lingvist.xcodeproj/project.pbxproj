@@ -15,6 +15,7 @@
 		AC10DBF1200D464900D09C03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC10DBEF200D464900D09C03 /* LaunchScreen.storyboard */; };
 		AC10DBFC200D5E6100D09C03 /* GrammaireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC10DBFB200D5E6100D09C03 /* GrammaireViewController.swift */; };
 		AC10DBFE200D6A6500D09C03 /* TextFiledPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC10DBFD200D6A6500D09C03 /* TextFiledPadding.swift */; };
+		AC10DC00200D78E600D09C03 /* Compte2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC10DBFF200D78E600D09C03 /* Compte2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		AC10DBF2200D464900D09C03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC10DBFB200D5E6100D09C03 /* GrammaireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrammaireViewController.swift; sourceTree = "<group>"; };
 		AC10DBFD200D6A6500D09C03 /* TextFiledPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFiledPadding.swift; sourceTree = "<group>"; };
+		AC10DBFF200D78E600D09C03 /* Compte2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compte2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				AC10DBF2200D464900D09C03 /* Info.plist */,
 				AC10DBFB200D5E6100D09C03 /* GrammaireViewController.swift */,
 				AC10DBFD200D6A6500D09C03 /* TextFiledPadding.swift */,
+				AC10DBFF200D78E600D09C03 /* Compte2ViewController.swift */,
 			);
 			path = Lingvist;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC10DBFC200D5E6100D09C03 /* GrammaireViewController.swift in Sources */,
+				AC10DC00200D78E600D09C03 /* Compte2ViewController.swift in Sources */,
 				AC10DBE9200D464900D09C03 /* CompteViewController.swift in Sources */,
 				AC10DBFE200D6A6500D09C03 /* TextFiledPadding.swift in Sources */,
 				AC10DBE5200D464900D09C03 /* AppDelegate.swift in Sources */,
