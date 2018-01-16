@@ -42,17 +42,25 @@ class WordViewController: UIViewController {
         let w1 = Word.init(id: 1, answer: "time", hint: "le temps, l'heure")
         let w2 = Word.init(id: 2, answer: "world", hint: "le monde")
         let w3 = Word.init(id: 3, answer: "place", hint: "un endroit, un lieu")
-        self.wordList = [w1, w2, w3]
+        let w4 = Word.init(id: 4, answer: "home", hint: "la maison, le domicile")
+        let w5 = Word.init(id: 5, answer: "year", hint: "un ans, une année")
+        let w6 = Word.init(id: 6, answer: "man", hint: "un homme")
+        let w7 = Word.init(id: 7, answer: "night", hint: "la nuit")
+        let w8 = Word.init(id: 8, answer: "car", hint: "une voiture")
+        let w9 = Word.init(id: 9, answer: "school", hint: "l'école")
+        let w10 = Word.init(id: 10, answer: "numbre", hint: "un nombre, chiffre, un numéro")
+        self.wordList = [w1, w2, w3, w4, w5, w6, w7, w8, w9, w10]
     }
     
     func selectWord() {
-        let position = randomCustom(min: 1, max: 3) - 1
+        let position = randomCustom(min: 1, max: 10) - 1
         let wordResultat = self.wordList[position]
         self.wordAct.setId(id: wordResultat.Id())
         self.wordAct.setAnswer(answer: wordResultat.Answer())
         self.wordAct.setHint(hint: wordResultat.Hint())
         labelHint.text = self.wordAct.Hint()
         labelBool.text = ""
+        textFieldInput.text = ""
         
     }
     
